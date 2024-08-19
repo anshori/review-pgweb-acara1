@@ -5,74 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HTML & CSS</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-
-		/* Sidebar */
-		aside {
-			background-color: #B5C18E;
-			text-align: left;
-			padding: 20px;
-			/* position left */
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 140px;
-			height: 100%;
-		}
-
-		aside ul {
-			list-style-type: none;
-			padding: 0;
-		}
-
-		aside ul li {
-			margin-bottom: 10px;
-		}
-
-		aside ul li a {
-			color: black;
-			text-decoration: none;
-		}
-
-		aside ul li a:hover {
-			color: rgb(255, 58, 58);
-		}
-
-		/* Main Section */
 		main {
-			margin-left: 210px;
-			margin-right: 30px;
-			margin-bottom: 60px;
-			margin-top: 25px;
+			margin: 30px;
 			padding: 50px;
 			border-radius: 10px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 		}
-
-		section {
-			margin-bottom: 20px;
-		}
-
-		/* Footer */
-		footer {
-			background-color: #777777;
-			color: white;
-			text-align: center;
-			padding: 0.5em;
-			position: fixed;
-			bottom: 0;
-			width: 100%;
-			height: 18px;
-		}
-
 		/* Table */
 		table {
 			border-collapse: collapse;
@@ -104,44 +44,13 @@
 			border-radius: 4px;
 			margin-top: 10px;
 		}
-
 		button:hover {
 			background-color: #45a049;
-		}
-
-		h3 {
-			background-color: #B5C18E;
-			padding: 10px;
-		}
-
-		/* Responsive */
-		@media screen and (max-width: 800px) {
-			aside {
-				display: none;
-			}
-
-			main {
-				margin-left: 0;
-			}
 		}
 	</style>
 </head>
 
 <body>
-	<aside>
-		<ul>
-			<li><a href="#title">🏠 Beranda</a></li>
-			<hr>
-			<li><a href="#deskripsi">👉🏽 Deskripsi</a></li>
-			<li><a href="#penduduk">👉🏽 Penduduk</a></li>
-			<li><a href="#kecamatan">👉🏽 Kecamatan</a></li>
-			<li><a href="#website">👉🏽 Website</a></li>
-			<li><a href="#galeri">👉🏽 Galeri</a></li>
-			<li><a href="#peta">👉🏽 Peta</a></li>
-			<li><a href="#kritiksaran">👉🏽 Kritik & Saran</a></li>
-			<li><a href="#pembuat">👉🏽 Pembuat</a></li>
-		</ul>
-	</aside>
 	<main>
 		<section style="text-align: center;">
 			<h1 id="title" style="margin-bottom: 0px; color: red;">Kabupaten Gunungkidul</h1>
@@ -149,7 +58,7 @@
 		</section>
 		<hr>
 		<section>
-			<h3 id="deskripsi"><i class="fa-solid fa-file-lines"></i> Deskripsi</h3>
+			<h3><i class="fa-solid fa-file-lines"></i> Deskripsi</h3>
 			<p>Kabupaten Gunungkidul (bahasa Jawa: ꧋ ꦒꦸꦤꦸꦁꦏꦶꦢꦸꦭ꧀ ꧉) adalah sebuah wilayah kabupaten yang terletak di Daerah
 				Istimewa Yogyakarta, Indonesia. Ibu kota kabupaten ini terletak di Kapanewon Wonosari. Nama kabupaten ini
 				berasal
@@ -170,7 +79,7 @@
 		</section>
 		<hr>
 		<section>
-			<h3 id="penduduk"><i class="fa-solid fa-people-group"></i> Penduduk</h3>
+			<h3><i class="fa-solid fa-people-group"></i> Penduduk</h3>
 			<table>
 				<thead>
 					<tr>
@@ -196,7 +105,7 @@
 		</section>
 		<hr>
 		<section>
-			<h3 id="kecamatan"><i class="fa-solid fa-clipboard-list"></i> Kecamatan</h3>
+			<h3><i class="fa-solid fa-clipboard-list"></i> Kecamatan</h3>
 			<ol>
 				<li>Gedangsari</li>
 				<li>Girisubo</li>
@@ -220,14 +129,14 @@
 		</section>
 		<hr>
 		<section>
-			<h3 id="website"><i class="fa-solid fa-link"></i> Website</h3>
+			<h3><i class="fa-solid fa-link"></i> Website</h3>
 			<a href="https://gunungkidulkab.go.id" target="_blank" rel="noopener noreferrer">
 				https://gunungkidulkab.go.id
 			</a>
 		</section>
 		<hr>
 		<section>
-			<h3 id="galeri"><i class="fa-solid fa-photo-film"></i> Galeri</h3>
+			<h3><i class="fa-solid fa-photo-film"></i> Galeri</h3>
 			<img
 				src="https://asset.kompas.com/crops/S2rkNr1-wgBFMAA8ogbWQQo3q7E=/0x0:987x658/750x500/data/photo/2022/06/26/62b87fb4ab5ad.jpg"
 				alt="" height="240">
@@ -241,35 +150,12 @@
 		</section>
 		<hr>
 		<section>
-			<h3 id="peta"><i class="fa-solid fa-map-location-dot"></i> Peta</h3>
-			<div class="mapouter">
-				<div class="gmap_canvas"><iframe width="820" height="560" id="gmap_canvas"
-						src="https://maps.google.com/maps?q=sekolah+vokasi+ugm&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0"
-						scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-						href="https://online.stopwatch-timer.net/pomodoro-timer">tomato timer</a><br><a
-						href="https://www.alarm-clock.net"></a><br>
-					<style>
-						.mapouter {
-							position: relative;
-							text-align: right;
-							height: 560px;
-							width: 820px;
-						}
-					</style><a href="https://www.ongooglemaps.com">google map net</a>
-					<style>
-						.gmap_canvas {
-							overflow: hidden;
-							background: none !important;
-							height: 560px;
-							width: 820px;
-						}
-					</style>
-				</div>
-			</div>
+			<h3><i class="fa-solid fa-map-location-dot"></i> Peta</h3>
+			<div class="mapouter"><div class="gmap_canvas"><iframe width="820" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=sekolah+vokasi+ugm&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://online.stopwatch-timer.net/pomodoro-timer">tomato timer</a><br><a href="https://www.alarm-clock.net"></a><br><style>.mapouter{position: relative;text-align: right;height: 560px;width: 820px;}</style><a href="https://www.ongooglemaps.com">google map net</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 560px;width: 820px;}</style></div></div>
 		</section>
 		<hr>
 		<section>
-			<h3 id="kritiksaran"><i class="fa-solid fa-pen-to-square"></i> Kritik dan Saran</h3>
+			<h3><i class="fa-solid fa-pen-to-square"></i> Kritik dan Saran</h3>
 			<form action="">
 				<label for="name">Nama</label><br>
 				<input type="text" id="name" name="name">
@@ -285,7 +171,7 @@
 		</section>
 		<hr>
 		<section>
-			<h3 id="pembuat"><i class="fa-solid fa-user-tag"></i> Pembuat</h3>
+			<h3><i class="fa-solid fa-user-tag"></i> Pembuat</h3>
 			<p>Nama: Anshori</p>
 			<p>NIM: 2024/123/456789</p>
 			<p>Kelas: A</p>
@@ -293,8 +179,7 @@
 	</main>
 	<footer>
 		<small>
-			<a href="https://unsorry.net" target="_blank" rel="noopener noreferrer"
-				style="text-decoration: none; color: white;">unsorry@2024</a>
+			<a href="https://unsorry.net" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: white;">unsorry@2024</a>
 		</small>
 	</footer>
 </body>
